@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(description='Image Deblurring using MPRNet')
 
 parser.add_argument('--result_dir', default='./results/', type=str, help='Directory for results')
 parser.add_argument('--index', default=4, type=int, help='Mode')
-parser.add_argument('--dataset', default='Datasets', type=str, help='Test Dataset')
+parser.add_argument('--dataset', default='test_dir', type=str, help='Test Dataset')
 parser.add_argument('--gpus', default='0', type=str, help='CUDA_VISIBLE_DEVICES')
 
 args = parser.parse_args()
