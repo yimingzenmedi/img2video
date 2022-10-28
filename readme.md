@@ -1,6 +1,6 @@
 # Links
 
-** Due to an update to the hosting platform, the sharing link cannot be created at the moment. Will update later. **
+* Due to an update to the hosting platform, the sharing link cannot be created at the moment. Will update later. *
 
 
 # Training
