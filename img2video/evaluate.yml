@@ -1,0 +1,19 @@
+###############
+##
+####
+
+GPU: [0,1,2,3]
+
+VERBOSE: True
+
+MODEL:
+  MODE: 'evaluate'
+  SESSION: 'Img2Video'
+
+TRAINING:
+  VAL_PS: 32
+#  VAL_DIR: '../Datasets/1000fps/test'    # path to validation data
+#  VAL_DIR: '../Datasets/video/test'    # path to validation data
+#  VAL_DIR: '../Datasets/video_min/test'    # path to validation data
+  VAL_DIR: '../Datasets/video_reduced/test'    # path to validation data
+  SAVE_DIR: './ckpt'     # path to save models and images
